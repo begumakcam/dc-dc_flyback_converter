@@ -3312,12 +3312,6 @@
 		(uuid "2b1b4021-9c06-4423-8d7d-3b38a0a64812")
 	)
 	(junction
-		(at 110.49 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bdf6ebf-8b2a-4480-9e71-2af65b380fd1")
-	)
-	(junction
 		(at 100.33 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5497,7 +5491,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 203.2) (xy 132.08 203.2)
+			(xy 100.33 203.2) (xy 132.08 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5807,16 +5801,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 203.2) (xy 110.49 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bddebd-af77-44e0-852a-ececc6279c6e")
-	)
-	(wire
-		(pts
 			(xy 259.08 99.06) (xy 259.08 93.98)
 		)
 		(stroke
@@ -5844,16 +5828,6 @@
 			(type default)
 		)
 		(uuid "f3ccf237-eb6a-4074-aa50-d54be6321f72")
-	)
-	(wire
-		(pts
-			(xy 110.49 203.2) (xy 110.49 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61ca392-e803-45fa-bcc4-e8d3b2282f7f")
 	)
 	(wire
 		(pts
@@ -6334,16 +6308,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1174c6c-84ef-492e-ae34-3d7dca4856b2")
-	)
-	(label "T8"
-		(at 110.49 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3d12c72-8faa-43c3-ba8d-d20beb68ca68")
 	)
 	(label "GND1"
 		(at 167.64 167.64 0)
@@ -9795,8 +9759,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:FDMS8350LET40")
-		(at 254 83.82 270)
-		(mirror x)
+		(at 254 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9815,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Value" "100V"
+		(property "Value" "150V"
 			(at 254 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9826,7 +9789,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 252.095 78.74 0)
+			(at 255.905 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9839,7 +9802,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf"
-			(at 250.19 78.74 0)
+			(at 257.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
